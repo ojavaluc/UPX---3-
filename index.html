@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Exibição das 8 Ideias Sustentáveis</title>
+              <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Título -->
+    <header>
+     <h1>8 Formas Sustentáveis para um Futuro Melhor</h1>
+    </header>
+
+    <!-- Seção das ideias com balões -->
+    <main>
+        <section class="balloon-container">
+            <!-- Balões clicáveis -->
+            <div class="balloon" id="balloon1" onclick="toggleVisibility('text1')">
+                <span>🔋</span> Geradores de Energia com Bicicletas
+            </div>
+            <div class="balloon" id="balloon2" onclick="toggleVisibility('text2')">
+                <span>♻️</span> Reciclagem de Resíduos Eletrônicos
+            </div>
+            <div class="balloon" id="balloon3" onclick="toggleVisibility('text3')">
+                <span>🌞</span> Luminárias Solares
+            </div>
+            <div class="balloon" id="balloon4" onclick="toggleVisibility('text4')">
+                <span>🚗</span> Lombada Inteligente
+            </div>
+            <div class="balloon" id="balloon5" onclick="toggleVisibility('text5')">
+                <span>🍃</span> Biodigestores Domésticos
+            </div>
+            <div class="balloon" id="balloon6" onclick="toggleVisibility('text6')">
+                <span>🚲</span> Locação de Bikes com Bateria Embutida
+            </div>
+            <div class="balloon" id="balloon7" onclick="toggleVisibility('text7')">
+                <span>🔥</span> Energia de Biomassa
+            </div>
+        </section>
+
+        <!-- Textos das ideias -->
+        <div class="text-idea" id="text1">
+            <p>Os geradores de energia baseados em bicicletas aproveitam a energia mecânica das pedaladas para produzir eletricidade. São sustentáveis e criativos, podendo alimentar pequenos dispositivos, como lâmpadas, ou carregar baterias.</p>
+        </div>
+        <div class="text-idea" id="text2">
+            <p>Proposta para criar um sistema sustentável para coletar, reaproveitar e reciclar resíduos eletrônicos, reduzindo o impacto ambiental e criando novos componentes para a fabricação de dispositivos.</p>
+        </div>
+        <div class="text-idea" id="text3">
+            <p>Luminárias solares funcionam com energia solar, ajudando a reduzir o consumo de eletricidade e o impacto ambiental, podendo ser instaladas em praças e áreas externas.</p>
+        </div>
+        <div class="text-idea" id="text4">
+            <p>A lombada inteligente converte a energia cinética dos veículos em eletricidade, promovendo sustentabilidade em vias urbanas e rodovias, e ajudando a iluminar espaços públicos.</p>
+        </div>
+        <div class="text-idea" id="text5">
+            <p>Os biodigestores domésticos transformam resíduos orgânicos em biogás e biofertilizante, promovendo autossuficiência energética e ajudando a reduzir a emissão de gases poluentes.</p>
+        </div>
+        <div class="text-idea" id="text6">
+            <p>Locação de bikes com baterias embutidas que se recarregam enquanto são utilizadas, criando um sistema sustentável e interativo para recarregar dispositivos móveis ao devolver as bikes.</p>
+        </div>
+        <div class="text-idea" id="text7">
+            <p>A energia de biomassa utiliza matéria orgânica para produzir energia renovável e limpa, substituindo combustíveis fósseis e aproveitando recursos naturais de forma eficiente.</p>
+        </div>
+    </main>
+
+
+<!-- Seção de Imagens -->
+<section class="images-section">
+    <div class="image-container">
+        <img src="upx3.png" alt="Imagem 1">
+        <img src="upx1.png" alt="Imagem 2">
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
